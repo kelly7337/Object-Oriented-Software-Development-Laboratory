@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{D4DE2C69-9E7C-47B7-95D8-BA984D82539A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="lab5\lab5\Lab5.cpp" />
+    <ClCompile Include="lab5\unittest\pch.cpp" />
+    <ClCompile Include="lab5\unittest\UnitTest.cpp" />
+    <ClCompile Include="sharedcode\BasicDisplayVisitor.cpp" />
+    <ClCompile Include="sharedcode\CatCommand.cpp" />
+    <ClCompile Include="sharedcode\CommandPrompt.cpp" />
+    <ClCompile Include="sharedcode\CommandTest.cpp" />
+    <ClCompile Include="sharedcode\CopyCommand.cpp" />
+    <ClCompile Include="sharedcode\DisplayCommand.cpp" />
+    <ClCompile Include="sharedcode\ImageFile.cpp" />
+    <ClCompile Include="sharedcode\LSCommand.cpp" />
+    <ClCompile Include="sharedcode\MacroCommand.cpp" />
+    <ClCompile Include="sharedcode\MetadataDisplayVisitor.cpp" />
+    <ClCompile Include="sharedcode\PasswordProxy.cpp" />
+    <ClCompile Include="sharedcode\RemoveCommand.cpp" />
+    <ClCompile Include="sharedcode\RenameParsingStrategy.cpp" />
+    <ClCompile Include="sharedcode\SimpleFileFactory.cpp" />
+    <ClCompile Include="sharedcode\SimpleFileSystem.cpp" />
+    <ClCompile Include="sharedcode\TextFile.cpp" />
+    <ClCompile Include="sharedcode\TouchCommand.cpp" />
+    <ClCompile Include="studio16\studio16\Studio16.cpp" />
+    <ClCompile Include="studio16\unittest\pch.cpp" />
+    <ClCompile Include="studio16\unittest\UnitTest.cpp" />
+    <ClCompile Include="studio17\studio17\Studio17.cpp" />
+    <ClCompile Include="studio17\unittest\pch.cpp" />
+    <ClCompile Include="studio17\unittest\UnitTest.cpp" />
+    <ClCompile Include="studio18\studio18\Studio18.cpp" />
+    <ClCompile Include="studio18\unittest\pch.cpp" />
+    <ClCompile Include="studio18\unittest\UnitTest.cpp" />
+    <ClCompile Include="studio19\studio19\Studio19.cpp" />
+    <ClCompile Include="studio19\unittest\pch.cpp" />
+    <ClCompile Include="studio19\unittest\UnitTest.cpp" />
+    <ClCompile Include="studio20\studio20\Studio20.cpp" />
+    <ClCompile Include="studio20\unittest\pch.cpp" />
+    <ClCompile Include="studio20\unittest\UnitTest.cpp" />
+    <ClCompile Include="studio21\studio21\Studio21.cpp" />
+    <ClCompile Include="studio21\unittest\pch.cpp" />
+    <ClCompile Include="studio21\unittest\UnitTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lab5\unittest\pch.h" />
+    <ClInclude Include="sharedcode\AbstractCommand.h" />
+    <ClInclude Include="sharedcode\AbstractFile.h" />
+    <ClInclude Include="sharedcode\AbstractFileFactory.h" />
+    <ClInclude Include="sharedcode\AbstractFileSystem.h" />
+    <ClInclude Include="sharedcode\AbstractFileVisitor.h" />
+    <ClInclude Include="sharedcode\AbstractParsingStrategy.h" />
+    <ClInclude Include="sharedcode\BasicDisplayVisitor.h" />
+    <ClInclude Include="sharedcode\CatCommand.h" />
+    <ClInclude Include="sharedcode\CommandPrompt.h" />
+    <ClInclude Include="sharedcode\CommandTest.h" />
+    <ClInclude Include="sharedcode\CopyCommand.h" />
+    <ClInclude Include="sharedcode\DisplayCommand.h" />
+    <ClInclude Include="sharedcode\ImageFile.h" />
+    <ClInclude Include="sharedcode\LSCommand.h" />
+    <ClInclude Include="sharedcode\MacroCommand.h" />
+    <ClInclude Include="sharedcode\MetadataDisplayVisitor.h" />
+    <ClInclude Include="sharedcode\PasswordProxy.h" />
+    <ClInclude Include="sharedcode\RemoveCommand.h" />
+    <ClInclude Include="sharedcode\RenameParsingStrategy.h" />
+    <ClInclude Include="sharedcode\SimpleFileFactory.h" />
+    <ClInclude Include="sharedcode\SimpleFileSystem.h" />
+    <ClInclude Include="sharedcode\TextFile.h" />
+    <ClInclude Include="sharedcode\TouchCommand.h" />
+    <ClInclude Include="studio16\unittest\pch.h" />
+    <ClInclude Include="studio17\unittest\pch.h" />
+    <ClInclude Include="studio18\unittest\pch.h" />
+    <ClInclude Include="studio19\unittest\pch.h" />
+    <ClInclude Include="studio20\unittest\pch.h" />
+    <ClInclude Include="studio21\unittest\pch.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
