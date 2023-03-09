@@ -1,0 +1,109 @@
+﻿  pch.cpp
+  UnitTest.cpp
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\TextFile.cpp(11,24): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.cpp(11,24): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\BasicDisplayVisitor.cpp(20,19): error C2248: “ImageFile::dimensions”: 无法访问 private 成员(在“ImageFile”类中声明)
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.h(30): message : 参见“ImageFile::dimensions”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.h(8): message : 参见“ImageFile”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\BasicDisplayVisitor.cpp(21,30): error C2248: “ImageFile::dimensions”: 无法访问 private 成员(在“ImageFile”类中声明)
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.h(30): message : 参见“ImageFile::dimensions”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.h(8): message : 参见“ImageFile”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\BasicDisplayVisitor.cpp(22,43): error C2248: “ImageFile::coordsToIndex”: 无法访问 private 成员(在“ImageFile”类中声明)
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.cpp(62): message : 参见“ImageFile::coordsToIndex”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.h(8): message : 参见“ImageFile”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(429): error C2259: “BasicDisplayVisitor”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\BasicDisplayVisitor.h(6): message : 参见“BasicDisplayVisitor”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(429): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(429): message : “void AbstractFileVisitor::visit(DirectoryFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFileVisitor.h(13): message : 参见“AbstractFileVisitor::visit”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(429,31): error C2259: “BasicDisplayVisitor”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\BasicDisplayVisitor.h(6): message : 参见“BasicDisplayVisitor”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(429,31): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(429,31): message : “void AbstractFileVisitor::visit(DirectoryFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFileVisitor.h(13): message : 参见“AbstractFileVisitor::visit”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(449): error C2259: “BasicDisplayVisitor”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\BasicDisplayVisitor.h(6): message : 参见“BasicDisplayVisitor”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(449): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(449): message : “void AbstractFileVisitor::visit(DirectoryFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFileVisitor.h(13): message : 参见“AbstractFileVisitor::visit”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(547,1): error C2661: “PasswordProxy::PasswordProxy”: 没有重载函数接受 2 个参数
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(561,1): error C2661: “PasswordProxy::PasswordProxy”: 没有重载函数接受 2 个参数
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(590,1): error C2661: “PasswordProxy::PasswordProxy”: 没有重载函数接受 2 个参数
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(620,1): error C2661: “PasswordProxy::PasswordProxy”: 没有重载函数接受 2 个参数
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(654,1): error C2661: “PasswordProxy::PasswordProxy”: 没有重载函数接受 2 个参数
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(690,1): error C2661: “PasswordProxy::PasswordProxy”: 没有重载函数接受 2 个参数
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(730,1): error C2661: “PasswordProxy::PasswordProxy”: 没有重载函数接受 2 个参数
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(766,1): error C2661: “PasswordProxy::PasswordProxy”: 没有重载函数接受 2 个参数
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(785): error C2259: “BasicDisplayVisitor”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\BasicDisplayVisitor.h(6): message : 参见“BasicDisplayVisitor”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(785): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(785): message : “void AbstractFileVisitor::visit(DirectoryFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFileVisitor.h(13): message : 参见“AbstractFileVisitor::visit”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(808,1): error C2661: “PasswordProxy::PasswordProxy”: 没有重载函数接受 2 个参数
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(828): error C2259: “BasicDisplayVisitor”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\BasicDisplayVisitor.h(6): message : 参见“BasicDisplayVisitor”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(828): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(828): message : “void AbstractFileVisitor::visit(DirectoryFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFileVisitor.h(13): message : 参见“AbstractFileVisitor::visit”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(856): error C2259: “CommandTest”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\CommandTest.h(13): message : 参见“CommandTest”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(856): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(856): message : “int AbstractCommand::execute(std::string &,std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractCommand.h(12): message : 参见“AbstractCommand::execute”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(856,37): error C2259: “CommandTest”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\CommandTest.h(13): message : 参见“CommandTest”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(856,37): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(856,37): message : “int AbstractCommand::execute(std::string &,std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractCommand.h(12): message : 参见“AbstractCommand::execute”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(865,1): error C2248: “CommandPrompt::listCommands”: 无法访问 private 成员(在“CommandPrompt”类中声明)
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\CommandPrompt.cpp(73): message : 参见“CommandPrompt::listCommands”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\CommandPrompt.h(8): message : 参见“CommandPrompt”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(898,1): error C2248: “CommandPrompt::prompt”: 无法访问 private 成员(在“CommandPrompt”类中声明)
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\CommandPrompt.cpp(63): message : 参见“CommandPrompt::prompt”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\CommandPrompt.h(8): message : 参见“CommandPrompt”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(941): error C2259: “CommandTest”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\CommandTest.h(13): message : 参见“CommandTest”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(941): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(941): message : “int AbstractCommand::execute(std::string &,std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractCommand.h(12): message : 参见“AbstractCommand::execute”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(986): error C2259: “CommandTest”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\CommandTest.h(13): message : 参见“CommandTest”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(986): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(986): message : “int AbstractCommand::execute(std::string &,std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractCommand.h(12): message : 参见“AbstractCommand::execute”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(1028): error C2259: “CommandTest”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\CommandTest.h(13): message : 参见“CommandTest”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(1028): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(1028): message : “int AbstractCommand::execute(std::string &,std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractCommand.h(12): message : 参见“AbstractCommand::execute”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(1071): error C2259: “CommandTest”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\CommandTest.h(13): message : 参见“CommandTest”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(1071): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(1071): message : “int AbstractCommand::execute(std::string &,std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractCommand.h(12): message : 参见“AbstractCommand::execute”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(1113): error C2259: “CommandTest”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\CommandTest.h(13): message : 参见“CommandTest”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(1113): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(1113): message : “int AbstractCommand::execute(std::string &,std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractCommand.h(12): message : 参见“AbstractCommand::execute”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(1160,1): error C2664: “TouchCommand::TouchCommand(AbstractFileFactory *,AbstractFileSystem *)”: 无法将参数 1 从“AbstractFileSystem *”转换为“AbstractFileFactory *”
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(1160,40): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\TouchCommand.cpp(7,15): message : 参见“TouchCommand::TouchCommand”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(1163,1): error C2660: “TouchCommand::execute”: 函数不接受 1 个参数
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\TouchCommand.cpp(10,19): message : 参见“TouchCommand::execute”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(1163,1): error C2661: “Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual”: 没有重载函数接受 1 个参数
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(1180,1): error C2664: “TouchCommand::TouchCommand(AbstractFileFactory *,AbstractFileSystem *)”: 无法将参数 1 从“AbstractFileSystem *”转换为“AbstractFileFactory *”
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(1180,40): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\TouchCommand.cpp(7,15): message : 参见“TouchCommand::TouchCommand”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(1183,1): error C2660: “TouchCommand::execute”: 函数不接受 1 个参数
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\TouchCommand.cpp(10,19): message : 参见“TouchCommand::execute”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(1183,1): error C2661: “Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreNotEqual”: 没有重载函数接受 1 个参数
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(1199,1): error C2664: “TouchCommand::TouchCommand(AbstractFileFactory *,AbstractFileSystem *)”: 无法将参数 1 从“AbstractFileSystem *”转换为“AbstractFileFactory *”
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(1199,40): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\TouchCommand.cpp(7,15): message : 参见“TouchCommand::TouchCommand”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(1202,1): error C2660: “TouchCommand::execute”: 函数不接受 1 个参数
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\TouchCommand.cpp(10,19): message : 参见“TouchCommand::execute”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(1202,1): error C2661: “Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual”: 没有重载函数接受 1 个参数
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(1203,1): error C2660: “TouchCommand::execute”: 函数不接受 1 个参数
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\TouchCommand.cpp(10,19): message : 参见“TouchCommand::execute”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio21\UnitTest\UnitTest.cpp(1203,1): error C2661: “Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreNotEqual”: 没有重载函数接受 1 个参数

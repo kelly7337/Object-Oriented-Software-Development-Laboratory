@@ -1,0 +1,22 @@
+﻿  BasicDisplayVisitor.cpp
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\BasicDisplayVisitor.cpp(20,19): error C2248: “ImageFile::dimensions”: 无法访问 private 成员(在“ImageFile”类中声明)
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.h(30): message : 参见“ImageFile::dimensions”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.h(8): message : 参见“ImageFile”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\BasicDisplayVisitor.cpp(21,30): error C2248: “ImageFile::dimensions”: 无法访问 private 成员(在“ImageFile”类中声明)
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.h(30): message : 参见“ImageFile::dimensions”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.h(8): message : 参见“ImageFile”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\BasicDisplayVisitor.cpp(22,43): error C2248: “ImageFile::coordsToIndex”: 无法访问 private 成员(在“ImageFile”类中声明)
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.h(32): message : 参见“ImageFile::coordsToIndex”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.h(8): message : 参见“ImageFile”的声明
+  PasswordProxy.cpp
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\PasswordProxy.cpp(19,27): error C2248: “AbstractFile::getParent”: 无法访问 protected 成员(在“AbstractFile”类中声明)
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(36): message : 参见“AbstractFile::getParent”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(10): message : 参见“AbstractFile”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\PasswordProxy.cpp(20,25): error C2248: “AbstractFile::setParent”: 无法访问 protected 成员(在“AbstractFile”类中声明)
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(34): message : 参见“AbstractFile::setParent”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(10): message : 参见“AbstractFile”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\PasswordProxy.cpp(64,35): error C2248: “AbstractFile::removeChild”: 无法访问 protected 成员(在“AbstractFile”类中声明)
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(33): message : 参见“AbstractFile::removeChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(10): message : 参见“AbstractFile”的声明
+  Studio21.cpp
+  正在生成代码...

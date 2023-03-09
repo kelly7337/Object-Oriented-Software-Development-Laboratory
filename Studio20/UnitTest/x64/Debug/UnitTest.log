@@ -1,0 +1,178 @@
+﻿  pch.cpp
+  UnitTest.cpp
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\TextFile.cpp(11,24): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.cpp(11,24): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\BasicDisplayVisitor.cpp(20,19): error C2248: “ImageFile::dimensions”: 无法访问 private 成员(在“ImageFile”类中声明)
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.h(34): message : 参见“ImageFile::dimensions”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.h(8): message : 参见“ImageFile”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\BasicDisplayVisitor.cpp(21,30): error C2248: “ImageFile::dimensions”: 无法访问 private 成员(在“ImageFile”类中声明)
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.h(34): message : 参见“ImageFile::dimensions”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.h(8): message : 参见“ImageFile”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\BasicDisplayVisitor.cpp(22,43): error C2248: “ImageFile::coordsToIndex”: 无法访问 private 成员(在“ImageFile”类中声明)
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.cpp(62): message : 参见“ImageFile::coordsToIndex”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.h(8): message : 参见“ImageFile”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\PasswordProxy.h(30,16): error C2040: “PasswordProxy::name”:“AbstractFile *”与“std::string”的间接寻址级别不同
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(426): error C2259: “BasicDisplayVisitor”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\BasicDisplayVisitor.h(6): message : 参见“BasicDisplayVisitor”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(426): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(426): message : “void AbstractFileVisitor::visit(DirectoryFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFileVisitor.h(13): message : 参见“AbstractFileVisitor::visit”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(426,31): error C2259: “BasicDisplayVisitor”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\BasicDisplayVisitor.h(6): message : 参见“BasicDisplayVisitor”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(426,31): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(426,31): message : “void AbstractFileVisitor::visit(DirectoryFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFileVisitor.h(13): message : 参见“AbstractFileVisitor::visit”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(446): error C2259: “BasicDisplayVisitor”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\BasicDisplayVisitor.h(6): message : 参见“BasicDisplayVisitor”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(446): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(446): message : “void AbstractFileVisitor::visit(DirectoryFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFileVisitor.h(13): message : 参见“AbstractFileVisitor::visit”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(544): error C2259: “PasswordProxy”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\PasswordProxy.h(9): message : 参见“PasswordProxy”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(544): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(544): message : “int AbstractFile::addChild(AbstractFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(37): message : 参见“AbstractFile::addChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(544): message : “int AbstractFile::removeChild(std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(38): message : 参见“AbstractFile::removeChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(544): message : “void AbstractFile::setParent(AbstractFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(39): message : 参见“AbstractFile::setParent”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(544): message : “AbstractFile *AbstractFile::getChild(std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(40): message : 参见“AbstractFile::getChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(544): message : “AbstractFile *AbstractFile::getParent(void)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(41): message : 参见“AbstractFile::getParent”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(544,41): error C2259: “PasswordProxy”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\PasswordProxy.h(9): message : 参见“PasswordProxy”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(544,41): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(544,41): message : “int AbstractFile::addChild(AbstractFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(37): message : 参见“AbstractFile::addChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(544,41): message : “int AbstractFile::removeChild(std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(38): message : 参见“AbstractFile::removeChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(544,41): message : “void AbstractFile::setParent(AbstractFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(39): message : 参见“AbstractFile::setParent”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(544,41): message : “AbstractFile *AbstractFile::getChild(std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(40): message : 参见“AbstractFile::getChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(544,41): message : “AbstractFile *AbstractFile::getParent(void)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(41): message : 参见“AbstractFile::getParent”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(544,1): error C2661: “PasswordProxy::PasswordProxy”: 没有重载函数接受 2 个参数
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(558): error C2259: “PasswordProxy”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\PasswordProxy.h(9): message : 参见“PasswordProxy”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(558): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(558): message : “int AbstractFile::addChild(AbstractFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(37): message : 参见“AbstractFile::addChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(558): message : “int AbstractFile::removeChild(std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(38): message : 参见“AbstractFile::removeChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(558): message : “void AbstractFile::setParent(AbstractFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(39): message : 参见“AbstractFile::setParent”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(558): message : “AbstractFile *AbstractFile::getChild(std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(40): message : 参见“AbstractFile::getChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(558): message : “AbstractFile *AbstractFile::getParent(void)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(41): message : 参见“AbstractFile::getParent”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(558,1): error C2661: “PasswordProxy::PasswordProxy”: 没有重载函数接受 2 个参数
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(587): error C2259: “PasswordProxy”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\PasswordProxy.h(9): message : 参见“PasswordProxy”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(587): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(587): message : “int AbstractFile::addChild(AbstractFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(37): message : 参见“AbstractFile::addChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(587): message : “int AbstractFile::removeChild(std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(38): message : 参见“AbstractFile::removeChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(587): message : “void AbstractFile::setParent(AbstractFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(39): message : 参见“AbstractFile::setParent”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(587): message : “AbstractFile *AbstractFile::getChild(std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(40): message : 参见“AbstractFile::getChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(587): message : “AbstractFile *AbstractFile::getParent(void)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(41): message : 参见“AbstractFile::getParent”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(587,1): error C2661: “PasswordProxy::PasswordProxy”: 没有重载函数接受 2 个参数
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(617): error C2259: “PasswordProxy”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\PasswordProxy.h(9): message : 参见“PasswordProxy”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(617): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(617): message : “int AbstractFile::addChild(AbstractFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(37): message : 参见“AbstractFile::addChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(617): message : “int AbstractFile::removeChild(std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(38): message : 参见“AbstractFile::removeChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(617): message : “void AbstractFile::setParent(AbstractFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(39): message : 参见“AbstractFile::setParent”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(617): message : “AbstractFile *AbstractFile::getChild(std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(40): message : 参见“AbstractFile::getChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(617): message : “AbstractFile *AbstractFile::getParent(void)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(41): message : 参见“AbstractFile::getParent”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(617,1): error C2661: “PasswordProxy::PasswordProxy”: 没有重载函数接受 2 个参数
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(651): error C2259: “PasswordProxy”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\PasswordProxy.h(9): message : 参见“PasswordProxy”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(651): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(651): message : “int AbstractFile::addChild(AbstractFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(37): message : 参见“AbstractFile::addChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(651): message : “int AbstractFile::removeChild(std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(38): message : 参见“AbstractFile::removeChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(651): message : “void AbstractFile::setParent(AbstractFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(39): message : 参见“AbstractFile::setParent”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(651): message : “AbstractFile *AbstractFile::getChild(std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(40): message : 参见“AbstractFile::getChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(651): message : “AbstractFile *AbstractFile::getParent(void)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(41): message : 参见“AbstractFile::getParent”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(651,1): error C2661: “PasswordProxy::PasswordProxy”: 没有重载函数接受 2 个参数
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(687): error C2259: “PasswordProxy”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\PasswordProxy.h(9): message : 参见“PasswordProxy”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(687): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(687): message : “int AbstractFile::addChild(AbstractFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(37): message : 参见“AbstractFile::addChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(687): message : “int AbstractFile::removeChild(std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(38): message : 参见“AbstractFile::removeChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(687): message : “void AbstractFile::setParent(AbstractFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(39): message : 参见“AbstractFile::setParent”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(687): message : “AbstractFile *AbstractFile::getChild(std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(40): message : 参见“AbstractFile::getChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(687): message : “AbstractFile *AbstractFile::getParent(void)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(41): message : 参见“AbstractFile::getParent”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(687,1): error C2661: “PasswordProxy::PasswordProxy”: 没有重载函数接受 2 个参数
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(727): error C2259: “PasswordProxy”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\PasswordProxy.h(9): message : 参见“PasswordProxy”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(727): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(727): message : “int AbstractFile::addChild(AbstractFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(37): message : 参见“AbstractFile::addChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(727): message : “int AbstractFile::removeChild(std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(38): message : 参见“AbstractFile::removeChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(727): message : “void AbstractFile::setParent(AbstractFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(39): message : 参见“AbstractFile::setParent”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(727): message : “AbstractFile *AbstractFile::getChild(std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(40): message : 参见“AbstractFile::getChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(727): message : “AbstractFile *AbstractFile::getParent(void)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(41): message : 参见“AbstractFile::getParent”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(727,1): error C2661: “PasswordProxy::PasswordProxy”: 没有重载函数接受 2 个参数
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(763): error C2259: “PasswordProxy”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\PasswordProxy.h(9): message : 参见“PasswordProxy”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(763): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(763): message : “int AbstractFile::addChild(AbstractFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(37): message : 参见“AbstractFile::addChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(763): message : “int AbstractFile::removeChild(std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(38): message : 参见“AbstractFile::removeChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(763): message : “void AbstractFile::setParent(AbstractFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(39): message : 参见“AbstractFile::setParent”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(763): message : “AbstractFile *AbstractFile::getChild(std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(40): message : 参见“AbstractFile::getChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(763): message : “AbstractFile *AbstractFile::getParent(void)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(41): message : 参见“AbstractFile::getParent”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(763,1): error C2661: “PasswordProxy::PasswordProxy”: 没有重载函数接受 2 个参数
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(782): error C2259: “BasicDisplayVisitor”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\BasicDisplayVisitor.h(6): message : 参见“BasicDisplayVisitor”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(782): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(782): message : “void AbstractFileVisitor::visit(DirectoryFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFileVisitor.h(13): message : 参见“AbstractFileVisitor::visit”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(805): error C2259: “PasswordProxy”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\PasswordProxy.h(9): message : 参见“PasswordProxy”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(805): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(805): message : “int AbstractFile::addChild(AbstractFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(37): message : 参见“AbstractFile::addChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(805): message : “int AbstractFile::removeChild(std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(38): message : 参见“AbstractFile::removeChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(805): message : “void AbstractFile::setParent(AbstractFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(39): message : 参见“AbstractFile::setParent”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(805): message : “AbstractFile *AbstractFile::getChild(std::string)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(40): message : 参见“AbstractFile::getChild”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(805): message : “AbstractFile *AbstractFile::getParent(void)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFile.h(41): message : 参见“AbstractFile::getParent”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(805,1): error C2661: “PasswordProxy::PasswordProxy”: 没有重载函数接受 2 个参数
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(825): error C2259: “BasicDisplayVisitor”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\BasicDisplayVisitor.h(6): message : 参见“BasicDisplayVisitor”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(825): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio20\UnitTest\UnitTest.cpp(825): message : “void AbstractFileVisitor::visit(DirectoryFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFileVisitor.h(13): message : 参见“AbstractFileVisitor::visit”的声明
