@@ -1,0 +1,6 @@
+﻿  pch.cpp
+  UnitTest.cpp
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\TextFile.cpp(11,24): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.cpp(11,24): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+    正在创建库 E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio18\x64\Debug\UnitTest.lib 和对象 E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio18\x64\Debug\UnitTest.exp
+  UnitTest.vcxproj -> E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio18\x64\Debug\UnitTest.dll
