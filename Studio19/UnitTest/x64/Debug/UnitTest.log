@@ -1,0 +1,27 @@
+﻿  UnitTest.cpp
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\TextFile.cpp(11,24): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.cpp(11,24): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\BasicDisplayVisitor.cpp(20,19): error C2248: “ImageFile::dimensions”: 无法访问 private 成员(在“ImageFile”类中声明)
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.h(34): message : 参见“ImageFile::dimensions”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.h(8): message : 参见“ImageFile”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\BasicDisplayVisitor.cpp(21,30): error C2248: “ImageFile::dimensions”: 无法访问 private 成员(在“ImageFile”类中声明)
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.h(34): message : 参见“ImageFile::dimensions”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.h(8): message : 参见“ImageFile”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\BasicDisplayVisitor.cpp(22,43): error C2248: “ImageFile::coordsToIndex”: 无法访问 private 成员(在“ImageFile”类中声明)
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.cpp(62): message : 参见“ImageFile::coordsToIndex”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\ImageFile.h(8): message : 参见“ImageFile”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio19\UnitTest\UnitTest.cpp(423): error C2259: “BasicDisplayVisitor”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\BasicDisplayVisitor.h(6): message : 参见“BasicDisplayVisitor”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio19\UnitTest\UnitTest.cpp(423): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio19\UnitTest\UnitTest.cpp(423): message : “void AbstractFileVisitor::visit(DirectoryFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFileVisitor.h(13): message : 参见“AbstractFileVisitor::visit”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio19\UnitTest\UnitTest.cpp(423,31): error C2259: “BasicDisplayVisitor”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\BasicDisplayVisitor.h(6): message : 参见“BasicDisplayVisitor”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio19\UnitTest\UnitTest.cpp(423,31): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio19\UnitTest\UnitTest.cpp(423,31): message : “void AbstractFileVisitor::visit(DirectoryFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFileVisitor.h(13): message : 参见“AbstractFileVisitor::visit”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio19\UnitTest\UnitTest.cpp(443): error C2259: “BasicDisplayVisitor”: 无法实例化抽象类
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\BasicDisplayVisitor.h(6): message : 参见“BasicDisplayVisitor”的声明
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio19\UnitTest\UnitTest.cpp(443): message : 由于下列成员:
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio19\UnitTest\UnitTest.cpp(443): message : “void AbstractFileVisitor::visit(DirectoryFile *)”: 是抽象的
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\AbstractFileVisitor.h(13): message : 参见“AbstractFileVisitor::visit”的声明
