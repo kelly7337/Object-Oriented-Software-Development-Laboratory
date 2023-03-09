@@ -1,0 +1,5 @@
+﻿  SimpleFileSystem.cpp
+  Studio17.cpp
+  正在生成代码...
+E:\VS_code\504\studio16-21andLab5\oop_work-axb2\SharedCode\SimpleFileSystem.cpp(35): warning C4715: “SimpleFileSystem::createFile”: 不是所有的控件路径都返回值
+  Studio17.vcxproj -> E:\VS_code\504\studio16-21andLab5\oop_work-axb2\Studio17\x64\Debug\Studio17.exe
