@@ -1,0 +1,7 @@
+﻿  GameBoard.cpp
+E:\VS_code\504\lab2\lab2-kelly7337\lab_2\lab_2\GameBoard.cpp(48,39): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\VS_code\504\lab2\lab2-kelly7337\lab_2\lab_2\GameBoard.cpp(72,3): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  GamePieces.cpp
+  lab_2.cpp
+  正在生成代码...
+  lab_2.vcxproj -> E:\VS_code\504\lab2\lab2-kelly7337\lab_2\x64\Debug\lab_2.exe
