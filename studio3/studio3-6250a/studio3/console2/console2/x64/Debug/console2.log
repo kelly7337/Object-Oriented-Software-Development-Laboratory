@@ -1,0 +1,3 @@
+﻿  console2.cpp
+E:\VS_code\504\studio3\studio3-6250a\studio3\console2\console2\console2.cpp(18,25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  console2.vcxproj -> E:\VS_code\504\studio3\studio3-6250a\studio3\console2\x64\Debug\console2.exe
